@@ -4,6 +4,12 @@ The Ubuntu LTS enablement (also called HWE or Hardware Enablement) stacks provid
 
 ## How to install HWE stacks on Ubuntu
 
+To enable HWE stacks on Ubuntu 20.04 LTS, use the following command :
+
+```bash
+sudo apt-get install --install-recommends linux-generic-hwe-20.04 -y
+```
+
 To enable HWE stacks on Ubuntu 18.04 LTS, you just have to run the following command :
 
 ```bash
